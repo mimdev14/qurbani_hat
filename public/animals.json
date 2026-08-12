@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Deshi Shahi Cow",
+    "type": "Cow",
+    "breed": "Local Deshi",
+    "price": 120000,
+    "weight": 280,
+    "age": 3,
+    "location": "Bogura",
+    "description": "A healthy, well-fed Deshi cow raised on natural fodder. Calm temperament, ideal for Qurbani and easy to transport.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Red_Chittagong_cattle,_Bangladesh_(1).jpg",
+    "category": "Large Animal"
+  },
+  {
+    "id": 2,
+    "name": "Australian Friesian Bull",
+    "type": "Cow",
+    "breed": "Australian Friesian",
+    "price": 210000,
+    "weight": 420,
+    "age": 4,
+    "location": "Sirajganj",
+    "description": "Premium cross-bred bull, grain-fattened for six months. Strong build and heavy weight, a favourite for shared Qurbani.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Holstein_Cow_Grazing_04.jpg",
+    "category": "Large Animal"
+  },
+  {
+    "id": 3,
+    "name": "Black Bengal Goat",
+    "type": "Goat",
+    "breed": "Black Bengal",
+    "price": 18000,
+    "weight": 22,
+    "age": 1,
+    "location": "Jamalpur",
+    "description": "Purebred Black Bengal goat known for tender meat. Vaccinated and raised free-range on a family farm.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Black_Bengal_Goat_00812.JPG",
+    "category": "Small Animal"
+  },
+  {
+    "id": 4,
+    "name": "Totapari Cow",
+    "type": "Cow",
+    "breed": "Totapari",
+    "price": 145000,
+    "weight": 310,
+    "age": 3,
+    "location": "Pabna",
+    "description": "Distinctive parrot-faced Totapari cow, a well-known regional breed prized for its lean, flavourful meat.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eid_al-Adha_cattle_market_in_Bangladesh_111.jpg",
+    "category": "Large Animal"
+  },
+  {
+    "id": 5,
+    "name": "Jamunapari Goat",
+    "type": "Goat",
+    "breed": "Jamunapari",
+    "price": 26000,
+    "weight": 35,
+    "age": 2,
+    "location": "Kushtia",
+    "description": "Tall, long-eared Jamunapari goat with excellent meat yield. Hand-fed on a mixed diet of grass and grain.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/JamunapariGoat01.jpg",
+    "category": "Small Animal"
+  },
+  {
+    "id": 6,
+    "name": "Sahiwal Cow",
+    "type": "Cow",
+    "breed": "Sahiwal",
+    "price": 165000,
+    "weight": 340,
+    "age": 4,
+    "location": "Rangpur",
+    "description": "Robust Sahiwal cow with a reddish-brown coat, raised on an open pasture. Well suited for a large family Qurbani.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eid_al-Adha_cattle_market_in_Bangladesh_44.jpg",
+    "category": "Large Animal"
+  }
+]

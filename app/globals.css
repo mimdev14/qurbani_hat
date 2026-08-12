@@ -1,0 +1,95 @@
+@import "tailwindcss";
+@import "animate.css";
+
+:root {
+  --color-forest: #1b4332;
+  --color-forest-dark: #0f2d21;
+  --color-gold: #d4a017;
+  --color-gold-light: #e8c25f;
+  --color-paper: #f7f1e1;
+  --color-paper-soft: #efe6cd;
+  --color-rust: #a63d2f;
+  --color-ink: #2b2620;
+  --color-sage: #e8e2ce;
+}
+
+@theme inline {
+  --color-forest: #1b4332;
+  --color-forest-dark: #0f2d21;
+  --color-gold: #d4a017;
+  --color-gold-light: #e8c25f;
+  --color-paper: #f7f1e1;
+  --color-paper-soft: #efe6cd;
+  --color-rust: #a63d2f;
+  --color-ink: #2b2620;
+  --color-sage: #e8e2ce;
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-work-sans);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background-color: var(--color-gold);
+  color: var(--color-forest-dark);
+}
+
+/* Ledger / token perforation edge, used on animal cards */
+.token-edge {
+  position: relative;
+}
+.token-edge::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 132px;
+  height: 0;
+  border-top: 2px dashed rgba(43, 38, 32, 0.18);
+  pointer-events: none;
+}
+.token-edge::after {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 124px;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  background: var(--color-paper);
+  box-shadow: 300px 0 0 var(--color-paper);
+  border: 2px solid rgba(43, 38, 32, 0.12);
+  pointer-events: none;
+}
+
+.stamp-rotate {
+  transform: rotate(-8deg);
+}
+
+.bg-noise {
+  background-image: radial-gradient(rgba(43, 38, 32, 0.045) 1px, transparent 1px);
+  background-size: 3px 3px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
