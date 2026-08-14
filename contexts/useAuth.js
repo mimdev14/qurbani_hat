@@ -27,7 +27,7 @@ const useAuth = () => {
     loginUser,
     googleLogin,
     logoutUser,
-    updateUserProfile,
+    updateUserProfile
   };
 };
 
