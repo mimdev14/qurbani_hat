@@ -33,7 +33,7 @@ const Login = () => {
       return;
     }
 
-    toast.success("Welcome back!");
+    toast.success("Welcome back");
     router.push(redirectTo);
   };
 
@@ -106,7 +106,7 @@ const Login = () => {
         <p className="mt-6 text-center text-sm text-ink/60">
           New to QurbaniHat?{" "}
           <Link href="/register" className="font-semibold text-forest hover:text-rust">
-            Register
+            Create an account
           </Link>
         </p>
       </div>
