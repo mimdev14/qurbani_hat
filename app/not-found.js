@@ -8,7 +8,7 @@ const NotFound = () => {
         This animal wandered off the haat.
       </h1>
       <p className="mt-2 max-w-md text-ink/60">
-        The page you&apos;re looking for doesn&apos;t exist or may have been moved.
+        The page you&apos;re looking for doesn&apos;t exist or may have been moved from the website.
       </p>
       <Link
         href="/"
