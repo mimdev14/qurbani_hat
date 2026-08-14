@@ -27,8 +27,8 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="tel:+8801955390163" className="hover:text-gold-light">
-                +880 1955-390163
+              <a href="tel:+8801xxxxxx" className="hover:text-gold-light">
+                +880 1xxxxxxxxxx
               </a>
             </li>
           </ul>
@@ -56,7 +56,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://wa.me/8801955390163"
+              href="https://wa.me/xxxxxxxx"
               target="_blank"
               rel="noreferrer"
               aria-label="WhatsApp"
