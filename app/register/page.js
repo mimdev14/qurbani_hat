@@ -65,7 +65,7 @@ const Register = () => {
     <div className="mx-auto flex min-h-[80vh] max-w-md flex-col justify-center px-5 py-16 sm:px-8">
       <div className="rounded-2xl border border-ink/10 bg-white p-8 shadow-sm">
         <span className="font-mono text-xs uppercase tracking-[0.25em] text-rust">
-          Join The Haat
+          Join QurbaniHaat
         </span>
         <h1 className="font-display text-3xl font-semibold text-ink">Register</h1>
 
