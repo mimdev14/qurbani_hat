@@ -178,7 +178,7 @@ export default async function Home() {
     </span>
 
     <h2 className="mt-2 font-display text-3xl font-semibold text-ink">
-      How QurbaniHat works
+      How QurbaniHat work
     </h2>
 
     <div className="mt-12 grid gap-10 md:grid-cols-3">
