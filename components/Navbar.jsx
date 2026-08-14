@@ -110,7 +110,7 @@ const Navbar = () => {
                 href="/register"
                 className="rounded-md bg-gold px-4 py-1.5 text-sm font-semibold text-forest-dark transition-colors hover:bg-gold-light"
               >
-                Register
+               create account
               </Link>
             </div>
           )}
