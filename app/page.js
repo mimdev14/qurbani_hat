@@ -171,27 +171,37 @@ export default async function Home() {
       </section>
 
       {/* How it works - extra section */}
-      <section className="mx-auto max-w-7xl px-5  sm:px-8 bg-sage/60 py-16">
-        <div className="mx-auto max-w-7xl px-5 sm:px-8">
-          <span className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
-            Three Steps
+     <section className="bg-sage/60 py-20">
+  <div className="mx-auto max-w-7xl px-5 sm:px-8">
+    <span className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
+      Three Steps
+    </span>
+
+    <h2 className="mt-2 font-display text-3xl font-semibold text-ink">
+      How QurbaniHat works
+    </h2>
+
+    <div className="mt-12 grid gap-10 md:grid-cols-3">
+      {steps.map((step, i) => (
+        <div key={step.label} className="relative pl-14">
+          <span className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full border-2 border-gold font-mono text-sm font-bold text-ink">
+            {i + 1}
           </span>
-          <h2 className="font-display text-3xl font-semibold">How QurbaniHat works</h2>
-          <div className="mt-10 grid gap-8 md:grid-cols-3">
-            {steps.map((step, i) => (
-              <div key={step.label} className="relative pl-14">
-                <span className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full border-2 border-gold font-mono text-sm font-bold text-ink">
-                  {i + 1}
-                </span>
-                <h3 className="font-display text-xl font-semibold text-ink">
-                  {step.label}
-                </h3>
-                <p className="mt-1.5 text-sm text-ink">{step.detail}</p>
-              </div>
-            ))}
-          </div>
+
+          <h3 className="font-display text-xl font-semibold text-ink">
+            {step.label}
+          </h3>
+
+          <p className="mt-2 text-sm leading-6 text-ink">
+            {step.detail}
+          </p>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
+
+<div className="h-16" />
     </div>
   );
 }
