@@ -4,10 +4,10 @@
 and goats, compare details honestly, and book the right animal before Eid.
 
 ### 🔗 Live URL
-`https://qurbanihat.vercel.app` *(replace with your deployed link)*
+`https://qurbanihat.vercel.app` 
 
 ### 📦 GitHub Repository
-`https://github.com/mimdev14/qurbanihat` *(replace with your repo link)*
+`https://github.com/mimdev14/qurbanihat` 
 
 ---
 
