@@ -53,9 +53,8 @@ export default async function Home() {
               chosen with <span className="italic text-gold-light">care.</span>
             </h1>
             <p className="mt-5 max-w-md text-paper/75">
-              Browse verified cows and goats from trusted sellers across
-              Bangladesh, compare honestly, and book the right animal before
-              the haat gets crowded.
+              Browse verified cows and goats from trusted sellers across Bangladesh. Compare animals with confidence and book the right one before the haat gets crowded.
+
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
