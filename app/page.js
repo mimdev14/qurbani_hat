@@ -171,7 +171,7 @@ export default async function Home() {
       </section>
 
       {/* How it works - extra section */}
-      <section className="bg-forest-dark py-16 text-paper">
+      <section className="mx-auto max-w-7xl px-5  sm:px-8 bg-sage/60 py-16">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <span className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
             Three Steps
@@ -180,13 +180,13 @@ export default async function Home() {
           <div className="mt-10 grid gap-8 md:grid-cols-3">
             {steps.map((step, i) => (
               <div key={step.label} className="relative pl-14">
-                <span className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full border-2 border-gold font-mono text-sm font-bold text-gold">
+                <span className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full border-2 border-gold font-mono text-sm font-bold text-ink">
                   {i + 1}
                 </span>
-                <h3 className="font-display text-xl font-semibold text-gold-light">
+                <h3 className="font-display text-xl font-semibold text-ink">
                   {step.label}
                 </h3>
-                <p className="mt-1.5 text-sm text-paper/70">{step.detail}</p>
+                <p className="mt-1.5 text-sm text-ink">{step.detail}</p>
               </div>
             ))}
           </div>
