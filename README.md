@@ -1,4 +1,4 @@
-# QurbaniHat 🐄🐐
+# QurbaniHat 🐄
 
 **A modern livestock booking platform for Qurbani** — browse verified cows
 and goats, compare details honestly, and book the right animal before Eid.
