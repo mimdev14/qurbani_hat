@@ -6,12 +6,12 @@ and goats, compare details honestly, and book the right animal before Eid.
 ### 🔗 Live URL
 `https://qurbanihat.vercel.app` 
 
-### 📦 GitHub Repository
+### GitHub Repository
 `https://github.com/mimdev14/qurbanihat` 
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 QurbaniHat helps families find and reserve Qurbani animals without the
 guesswork of an in-person haat. It presents a curated, filterable
@@ -20,7 +20,7 @@ price, location), a booking flow gated behind authentication, and a
 simple profile system — all wrapped in a design inspired by the ticket
 tokens used at real Bangladeshi cattle markets.
 
-## ✨ Key Features
+## Key Features
 
 - **Home page** with a hero banner, 4 featured animals, a Qurbani Tips
   section, a Top Breeds section, and a "How QurbaniHat Works" walkthrough.
@@ -40,7 +40,7 @@ tokens used at real Bangladeshi cattle markets.
 - **Loading states**, a custom **404 Not Found** page, and toast
   notifications throughout.
 
-## 🧰 Tech Stack & npm Packages
+## Tech Stack & npm Packages
 
 - **Next.js 16 (App Router)** — routing, layouts, and rendering
 - **React 19** — UI
@@ -52,7 +52,7 @@ tokens used at real Bangladeshi cattle markets.
 - **React Toastify** — toast notifications
 - **Animate.css** — entrance/menu micro-animations
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Copy `.env.local.example` to `.env.local` and fill in your own values:
 
@@ -73,21 +73,21 @@ Generate `BETTER_AUTH_SECRET` with `npx auth secret` or
 (set the authorized redirect URI to
 `<your-domain>/api/auth/callback/google`).
 
-## 🚀 Running Locally
+## Running Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-## 🏗️ Building for Production
+##  Building for Production
 
 ```bash
 npm run build
 npm run start
 ```
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 app/
